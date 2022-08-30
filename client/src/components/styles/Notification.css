@@ -1,0 +1,21 @@
+.notification__container {
+  background-color: rgba(3, 255, 11, 0.3);
+  display: flex;
+  border-radius: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  font-weight: bold;
+}
+
+.notificationError__container {
+  background-color: rgba(255, 0, 0, 0.3);
+  display: flex;
+  border-radius: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  font-weight: bold;
+}

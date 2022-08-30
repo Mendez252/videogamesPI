@@ -1,0 +1,23 @@
+.paginado {
+  display: flex;
+  flex-direction: row;
+}
+
+.number {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  border: 1px solid white;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: rgb(87, 86, 86);
+}

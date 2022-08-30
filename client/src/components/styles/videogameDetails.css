@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.videogameDetails_container {
+  position: absolute;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.videogameDetails_back {
+  background-color: #000000e3;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  border-color: white;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/* img {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  height: auto;
+} */
+
+p {
+  padding-left: 30px;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: red;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.videogameDetails_details {
+  display: flex;
+  flex-direction: row;
+}
+
+.loading {
+  background-color: black;
+  color: white;
+}
+
+.videogameDetails_img {
+  padding: 8px;
+  border: 1px solid white;
+}

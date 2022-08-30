@@ -1,0 +1,13 @@
+.filterContainer {
+  margin-top: 50px;
+  color: white;
+  width: 80%;
+}
+
+.hrBold {
+  border: 2px solid white;
+}
+
+.selectCombo {
+  width: 99%;
+}
